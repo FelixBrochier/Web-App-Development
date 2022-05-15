@@ -1,0 +1,73 @@
+  <!DOCTYPE html>
+<html role="main" lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Computing project</title>
+  <link rel="stylesheet" href="default.css">
+  <script type="module" src="main.js"></script>
+  <link rel="stylesheet" href="https://use.typekit.net/fft1zne.css">
+
+</head>
+
+<body  class = "mainPage" id = "body" >
+
+
+    <div id = Introduction>
+        <h1 id = "Title">Forecast and travel guide</h1>
+        <p id = "Description"> This web-app gives you the weather forecast of your city at first. If you need a break and a 
+            change of destination, it will also give you the weather forecast of the other input city, and the distance from your city.
+        </p>
+    </div>
+
+
+    <table id = "structure">
+        <tr>
+            <th id = "inputHomeTitle">Check the weather in your city</th>
+            <th id = "inputTouristTitle">Where do you want to go?</th>
+        </tr>
+        <tr>
+            <td>
+                <input type="text" id = "homeInput" placeholder="Enter your city">
+                <input type = "submit" id = "homeButton" value = "Enter">
+            </td>
+            <td>
+                <input type = "text" id = "touristInput" placeholder="Enter a city you want to visit">
+                <input type =  "submit" id = "touristButton" value = "Enter">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <h4 id = "homeName"></h4>
+            </td>
+            <td>
+                <h4 id = "touristName"></h4>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p id = "homeDescription"></p>
+            </td>
+            <td>
+                <p id = "touristDescription"></p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p id = "homeTemperature"></p>
+            </td>
+            <td>
+                <p id = "touristTemperature"></p>
+            </td>
+        </tr>
+        
+    </table>
+
+
+    <h4 id = "distance"></h4>
+
+
+    <script type="module" src="main.js"></script>
+</body>

@@ -1,0 +1,100 @@
+#body
+{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    height: 100%;
+    width: 98%;
+    padding: 0% 0%;
+}
+
+.mainPage {
+    -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background: url("https://images.unsplash.com/photo-1544829728-e5cb9eedc20e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTR8fHxlbnwwfHx8fA%3D%3D&w=1000&q=80") no-repeat center center fixed;
+   background-size: cover;
+   height: 100vh;
+}
+
+#Title {
+    text-align: center;
+    padding: 1% 10%;
+    padding-bottom: 3%;
+}
+
+#Description {
+    font-size: 105%;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-bottom: 5%;
+    text-align: center;
+}
+
+#structure {
+    text-align: center;
+    width: 100%;
+    table-layout: fixed;
+}
+
+#inputHomeTitle {
+    text-align: center;
+    padding-bottom: 3%;
+    font-size: 175%;
+}
+
+#inputTouristTitle {
+    text-align: center;
+    width: 50%;
+    padding-bottom: 3%;
+    font-size: 175%;
+}
+
+#homeInput {
+    padding: 0.5%;
+}
+
+#homeButton {
+    padding: 0.5%;
+}
+
+#touristInput {
+    padding: 0.5%;
+}
+
+#touristButton {
+    padding: 0.5%;
+}
+
+#homeName {
+    font-size: 150%;
+}
+
+#touristName {
+    font-size: 150%;
+}
+
+#homeDescription {
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+#touristDescription {
+    padding-left: 27%;
+     padding-right: 27%;
+}
+
+#homeTemperature {
+    padding-right: 30%;
+    padding-left: 30%;
+}
+
+#touristTemperature {
+    padding-right: 27%;
+    padding-left: 27%;
+}
+
+#distance {
+    font-size: 150%;
+    padding-top: 3%;
+    text-align: center;
+}
